@@ -17,7 +17,7 @@ const addReceipe = async (e) => {
         "Content-Type": "application/json",
       },
     });
-    window.location.href = "home.html";
+    window.location.href = "index.html";
   } catch (err) {
     console.log(err);
   }
